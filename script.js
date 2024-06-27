@@ -40,3 +40,5 @@ list_cont.forEach((list, index) => {
         }
     })
 })
+const screenWidth = window.innerWidth;
+console.log(`Screen width: ${screenWidth}px`);
