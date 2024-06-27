@@ -29,6 +29,7 @@ body{
     display: flex;
     align-items: center;
     border: 2px solid blue;
+    flex-wrap: wrap;
 }
 .logo{
     padding-left: 64px;
@@ -305,7 +306,7 @@ footer{
         max-height: 90%;
     }
 }
-@media((max-width:800px)and(orientation: portrait)) or (max-width:530px){
+@media((max-width:800px) and (orientation: portrait)) or (max-width:530px){
     .links-btn-cont{
         background-color: white;
         position: fixed;
