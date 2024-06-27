@@ -29,7 +29,6 @@ body{
     display: flex;
     align-items: center;
     border: 2px solid blue;
-    flex-wrap: wrap;
 }
 .logo{
     padding-left: 64px;
