@@ -308,7 +308,7 @@ footer{
         max-height: 90%;
     }
 }
-@media((max-width:800px) and (orientation: portrait)) or (max-width:530px){
+@media((max-width:800px)and(orientation: portrait)) or (max-width:530px){
     .links-btn-cont{
         background-color: white;
         position: fixed;
@@ -323,12 +323,6 @@ footer{
         padding: 64px 32px;
         transition: ease-in-out 0.5s;     
     }
-    /* .list-dropdown-cont:hover .show{
-        display: inline;
-    }
-    .list-dropdown-cont:hover .hide{
-        display: none;
-    } */
     .hide-bar{
         right: -1000px;
     }
