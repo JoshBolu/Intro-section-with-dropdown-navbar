@@ -197,7 +197,7 @@ footer{
     color: hsl(228, 45%, 44%); 
     font-weight: 700;
 }
-@media(max-width:950px) and (min-width: 801px) and (orientation: portrait){
+@media(max-width:950px) and (orientation: portrait){
     .main-container{
         flex-direction: column-reverse;
     }
@@ -260,7 +260,7 @@ footer{
         font-size: 17px;
     }
 }
-@media(max-width:950px)  and (min-width: 801px) and (orientation: landscape){
+@media(max-width:950px) and (orientation: landscape){
     .logo{
         display: flex;
         flex-wrap: wrap;
